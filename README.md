@@ -1,5 +1,5 @@
 # reverse-a-given-number-by-excluding-zeros-in-the-given-number
-//Rverse a given number with excluding zeros in the given number
+//Reverse a given number with excluding zeros in the given number
 #include <stdio.h>
 #include <stdlib.h>
 int main()
@@ -22,6 +22,6 @@ int main()
         rnum=rnum*10+rem;
         rev=rev/10;
     }
-    printf("Number after removing all the Zeros = %d",rev);
+    printf("Number after removing all the Zeros and reverse = %d",rev);
     return 0;
 }
